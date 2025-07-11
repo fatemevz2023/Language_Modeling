@@ -1,0 +1,17 @@
+device = 'cuda' if __import__('torch').cuda.is_available() else 'cpu'
+embedding_dim = 400
+hidden_dim = 1150
+num_layers = 3
+seq_len = 70
+batch_size = 32
+lr = 30.0
+momentum = 0.9
+wd = 1.2e-6
+clip = 0.25
+dropoute = 0.1
+dropouti = 0.65
+dropouth = 0.3
+dropouto = 0.4
+weight_drop = 0.5
+num_epochs = 5
+seed = 42

@@ -101,7 +101,4 @@ You can monitor training via [Weights & Biases](https://wandb.ai/) by enabling `
 
 ---
 
-## 👩‍💻 Author
 
-Fatemeh Vaez – M.Sc. in Telecommunication Engineering, Deep Learning Enthusiast
-Project developed as part of the Deep Catalyst course by Howsam AI Academy.

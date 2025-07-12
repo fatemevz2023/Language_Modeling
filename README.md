@@ -1,8 +1,8 @@
-# 📚Language Modeling with WikiText-2
+# Language Modeling with WikiText-2
 
 This repository contains an implementation of an AWD-LSTM-based language model trained on the [WikiText-2](https://huggingface.co/datasets/wikitext/viewer/wikitext-2) dataset using PyTorch.
 
-## 🧠 Project Overview
+##  Project Overview
 
 The goal of this project is to build and train a neural language model that can learn the structure of English text and generate fluent sentences.
 
@@ -56,7 +56,7 @@ project-root/
 
 ---
 
-## 🔥 Example Generation
+##  Example Generation
 
 Given the prompt:
 
@@ -70,7 +70,7 @@ The model may generate something like:
 
 ---
 
-## 🛠 Dependencies
+##  Dependencies
 
 To install required packages:
 
@@ -88,13 +88,13 @@ Tested with:
 
 ---
 
-## 📊 Optional: Weights & Biases Logging
+##  Optional: Weights & Biases Logging
 
 You can monitor training via [Weights & Biases](https://wandb.ai/) by enabling `wandb_enable = True` in the config section and placing your API key in a local `key` file.
 
 ---
 
-## 📌 References
+##  References
 
 * [AWD-LSTM Paper (Merity et al., 2017)](https://arxiv.org/abs/1708.02182)
 * [WikiText-2 Dataset](https://paperswithcode.com/dataset/wikitext-2)
